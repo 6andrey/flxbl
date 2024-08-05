@@ -1,0 +1,1 @@
+Default folder of the project. All files have to relocated to proper folders.
