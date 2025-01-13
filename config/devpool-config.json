@@ -1,0 +1,12 @@
+{
+    "tag": "DEV-POOL",
+    "maxAllocation": 2,
+    "expiry": 1,
+    "batchSize": 1,
+    "configFilePath": "config/project-scratch-snapshot-def.json",
+    "relaxAllIPRanges": true,
+    "installAll": true,
+    "enableSourceTracking": true,
+    "retryOnFailure": true,
+    "succeedOnDeploymentErrors": true
+}

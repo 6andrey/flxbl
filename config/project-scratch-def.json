@@ -1,13 +1,18 @@
 {
   "orgName": "andreyshestakov company",
-  "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "edition": "Enterprise",
+  "features": [
+    "OmniStudioDesigner",
+    "OmniStudioRuntime",
+    "OmnistudioMetadata",
+    "HealthCloudAddOn",
+    "HealthCloudUser",
+    "BusinessRulesEngine",
+    "Assessments"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
-    },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
     }
   }
 }

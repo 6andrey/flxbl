@@ -1,13 +1,21 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
-      "default": false
+      "path": "src/force-app",
+      "default": false,
+      "versionNumber": "1.0.0.NEXT",
+      "package": "force-app"
     },
+    {
+      "path": "src/apex-recipes",
+      "default": false,
+      "versionNumber": "1.0.0.NEXT",
+      "package": "apex-recipes"
+    },    
     {
       "path": "src-temp",
       "default": true
-    }    
+    }
   ],
   "name": "flxbl",
   "namespace": "",
