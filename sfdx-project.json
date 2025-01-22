@@ -1,10 +1,12 @@
 {
   "packageDirectories": [
     {
-      "path": "src/force-app",
+      "path": "src\\force-app\\main\\default",
       "default": false,
-      "versionNumber": "1.0.0.NEXT",
-      "package": "force-app"
+      "versionNumber": "0.1.0.NEXT",
+      "package": "force-app",
+      "versionName": "ver 0.1",
+      "versionDescription": ""
     },
     {
       "path": "src-temp",
@@ -14,5 +16,8 @@
   "name": "flxbl",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "61.0"
+  "sourceApiVersion": "61.0",
+  "packageAliases": {
+    "force-app": "0Hobm0000000G3BCAU"
+  }
 }
