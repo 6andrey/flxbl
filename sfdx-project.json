@@ -1,11 +1,20 @@
 {
   "packageDirectories": [
     {
-      "path": "src\\force-app\\main\\default",
+      "path": "src/force-app/main/default",
       "default": false,
+      "scopeProfiles": "true",
       "versionNumber": "0.1.0.NEXT",
       "package": "force-app",
       "versionName": "ver 0.1",
+      "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "src/dreamhouse-app",
+      "default": false,
+      "package": "dreamhouse-app",
       "versionDescription": ""
     },
     {
@@ -18,6 +27,7 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0",
   "packageAliases": {
-    "force-app": "0Hobm0000000G3BCAU"
+    "force-app": "0Hobm0000000G3BCAU",
+    "dreamhouse-app": "0Hobm0000000GHhCAM"
   }
 }
